@@ -7,14 +7,14 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ## Table of contents
 
 - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -79,14 +79,14 @@ To see how you can add code snippets, see below:
 
 ```css
 .proud-of-this-css {
-    color: papayawhip;
+  color: papayawhip;
 }
 ```
 
 ```js
 const proudOfThisFunc = () => {
-    console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking
@@ -122,4 +122,3 @@ come in handy for anyone viewing your solution or for yourself when you look bac
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got
 some inspiration from someone else's solution. This is the perfect place to give them some credit.
-

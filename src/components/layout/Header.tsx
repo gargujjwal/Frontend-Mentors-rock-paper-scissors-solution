@@ -1,4 +1,5 @@
 import HeaderProps from "../../types/props/header-props";
+import logo from "../../assets/images/logo.svg";
 
 export default function Header(props: HeaderProps): JSX.Element {
     return (
@@ -10,7 +11,7 @@ export default function Header(props: HeaderProps): JSX.Element {
             <div className={"p-3"}>
                 <img
                     className={"h-full w-full object-cover"}
-                    src="src/assets/images/logo.svg"
+                    src={logo}
                     alt="logo"
                 />
             </div>

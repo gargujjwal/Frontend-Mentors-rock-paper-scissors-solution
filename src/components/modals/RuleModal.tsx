@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import ModalContextProvider, { ModalContext } from "../UI/Modal";
+import rulesImg from "../../assets/images/image-rules.svg";
+import closeImg from "../../assets/images/icon-close.svg";
 
 export function RuleModal(props: { onExit: () => void }) {
     const modalContext = useContext(ModalContext);
@@ -18,11 +20,7 @@ export function RuleModal(props: { onExit: () => void }) {
             >
                 Rules
             </h1>
-            <img
-                className={"object-cover"}
-                src="src/assets/images/image-rules.svg"
-                alt="rules"
-            />
+            <img className={"object-cover"} src={rulesImg} alt="rules" />
 
             <button
                 className={
@@ -32,7 +30,7 @@ export function RuleModal(props: { onExit: () => void }) {
             >
                 <img
                     className={"h-full w-full object-cover"}
-                    src="src/assets/images/icon-close.svg"
+                    src={closeImg}
                     alt="close icon"
                 />
             </button>

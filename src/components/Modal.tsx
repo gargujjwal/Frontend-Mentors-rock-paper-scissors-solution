@@ -1,9 +1,9 @@
 import { createPortal } from "react-dom";
-import { GameType } from "./App";
 import RulesRockPaperScissor from "../assets/images/rules/image-rules.svg";
 import RulesRockPaperScissorLizardSpock from "../assets/images/rules/image-rules-bonus.svg";
 import CrossSVG from "../assets/images/icon-close.svg";
 import { MouseEventHandler } from "react";
+import { GameType } from "../types";
 
 type ModalProps = {
     gameType: GameType;

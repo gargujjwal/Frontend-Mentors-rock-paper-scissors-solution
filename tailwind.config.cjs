@@ -3,17 +3,9 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         fontFamily: {
-            primary: ["Barlow Semi Condensed", "sans-serif"
-            ]
+            primary: ["Barlow Semi Condensed", "sans-serif"]
         },
         extend: {
-            screens: {
-                "sm": "375px"
-            },
-            backgroundImage: {
-                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-                "triangle": "url('/src/assets/images/bg-triangle.svg')"
-            },
             colors: {
                 "dark-text": "hsl(229, 25%, 31%)",
                 "score-text": "hsl(229, 64%, 46%)",
@@ -26,10 +18,14 @@ module.exports = {
                 "rock-2": "#dd405d",
                 "lizard-1": "#834fe3",
                 "lizard-2": "#8c5de5",
-                "cyan-1": "#40b9ce",
-                "cyan-2": "#52bed1",
+                "spock-1": "#40b9ce",
+                "spock-2": "#52bed1",
                 "light-shadow": "#00000026",
                 "medium-shadow": "#0000004d"
+            },
+            backgroundImage: {
+                triangle: "url('/bg/bg-triangle.png')",
+                pentagon: "url('/bg/bg-pentagon.png')"
             }
         }
     },
